@@ -196,7 +196,7 @@ addtoHtml = (person) =>{
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
                 <li class="list-group-item"><a href="mailto:${email}" src="mailto:${email}">Email Address: ${email}</a></li>
-                <li class="list-group-item"><a href="https://github.com/${gitHub} target="blank" src="https://github.com/${gitHub}"> GitHub: ${gitHub}</a></li>
+                <li class="list-group-item"><a href="https://github.com/${gitHub}" target="blank" src="https://github.com/${gitHub}"> GitHub: ${gitHub}</a></li>
             </ul>
             </div>
         </div>`;
