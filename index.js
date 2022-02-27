@@ -112,7 +112,7 @@ async function teamBuilder(){
              console.log('confrimed role and asked role specific questions');
             const response2 = await addtoHtml(createEmployeeResponse);
             // writetoFile(response2);
-            console.log(response2);
+            // console.log(response2);
             console.log('Added employee to roster')
             const continuecheck = await inquirer.prompt(continueQuestion)
             if(continuecheck.continue === 'Yes'){
